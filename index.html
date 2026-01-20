@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-name">Shahzaib ALi</div> <!-- Name removed -->
+    <ul class="nav-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+  <div class="hero-left">
+    <p class="tagline">Starting small, dreaming big in web development.</p>
+    <h2>Hello, I’m a Web Developer</h2>
+    <h3 class="typing-text"></h3>
+    <!-- New Button -->
+    <a href="#contact" class="connect-btn">Let’s Connect</a>
+  </div>
+  <div class="hero-right">
+    <div class="oval-frame">
+      <img src="ee.jpeg" alt="My Picture">
+    </div>
+  </div>
+</section>
+<!-- About Us Section -->
+<!-- About Us Section -->
+<section class="about" id="about">
+  <div class="about-container">
+    <!-- Left side: Heading -->
+    <div class="about-left">
+      <h2>About Me</h2>
+    </div>
+    <!-- Right side: Paragraphs -->
+    <div class="about-right">
+      <p>
+        I’m a passionate beginner web developer, learning and building with 
+        <b>HTML, CSS, and JavaScript</b>. My goal is to create 
+        interactive, visually appealing websites and tools that solve real-world problems.
+      </p>
+      <p>
+        This journey is just the beginning I’m excited to share my projects, 
+        collaborate with others, and grow as part of a creative community.
+      </p>
+    </div>
+  </div>
+</section>
+<!-- Services Section -->
+<section class="services" id="services">
+  <h2>My Services</h2>
+  <div class="services-container">
+    
+    <div class="service-card">
+      <div class="card-inner">
+        <div class="card-front"><h3>Web Design</h3></div>
+        <div class="card-back"><p>Creative and responsive web designs using HTML & CSS.</p></div>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <div class="card-inner">
+        <div class="card-front"><h3>Frontend Development</h3></div>
+        <div class="card-back"><p>Interactive websites powered by JavaScript and animations.</p></div>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <div class="card-inner">
+        <div class="card-front"><h3>Problem Solving</h3></div>
+        <div class="card-back"><p>Building tools and solutions for real-world problems.</p></div>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <div class="card-inner">
+        <div class="card-front"><h3>Digital Marketing</h3></div>
+        <div class="card-back"><p>Helping brands grow online with social media strategies.</p></div>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <div class="card-inner">
+        <div class="card-front"><h3>SEO</h3></div>
+        <div class="card-back"><p>Optimizing websites for search engines to boost visibility.</p></div>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <div class="card-inner">
+        <div class="card-front"><h3>WordPress</h3></div>
+        <div class="card-back"><p>Custom WordPress themes and plugins for scalable sites.</p></div>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <div class="card-inner">
+        <div class="card-front"><h3>Shopify</h3></div>
+        <div class="card-back"><p>Building and customizing Shopify stores for e-commerce.</p></div>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <div class="card-inner">
+        <div class="card-front"><h3>API Integration</h3></div>
+        <div class="card-back"><p>Connecting apps with APIs for automation and functionality.</p></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- Projects Section -->
+<section class="projects" id="projects">
+  <h2>My Projects</h2>
+  <div class="projects-container">
+
+    <!-- Project 1 -->
+    <div class="project-card">
+      <img src="image.png" alt="Project 1">
+      <div class="project-info">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio built with HTML, CSS, and JavaScript showcasing my skills.</p>
+        <a href="#" class="project-btn">View Project</a>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <img src="2.png" alt="Project 2">
+      <div class="project-info">
+        <h3>E-commerce Store</h3>
+        <p>Responsive online store built with Shopify and custom CSS design.</p>
+        <a href="#" class="project-btn">View Project</a>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <img src="1.png" alt="Project 3">
+      <div class="project-info">
+        <h3>API Integration</h3>
+        <p>Connected external APIs to fetch live data and display it interactively.</p>
+        <a href="#" class="project-btn">View Project</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <h2>Contact Me</h2>
+  <div class="contact-container">
+
+    <!-- Left side: Info -->
+    <div class="contact-info">
+      <p>Have a project in mind or just want to say hi?</p>
+      <p><strong>Email:</strong> smartdesigner301@gmai.com</p>
+      <p><strong>Phone:</strong> +92 309 1163940</p>
+      <p><strong>Location:</strong> Punjab, Pakistan</p>
+    </div>
+
+    <!-- Right side: Form -->
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="contact-btn">Send Message</button>
+    </form>
+
+  </div>
+</section>
+<!-- Footer -->
+<footer class="footer">
+  <p>© 2026 Smart. All Rights Reserved.</p>
+</footer>
+  <!-- Star background -->
+  <canvas id="stars"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
